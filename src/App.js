@@ -16,7 +16,7 @@ export default function App() {
         {/* <Route path="/main" component={Home} /> */}
         <Route path="/mixes" component={Mixes} />
         <Route path="/songs" component={Songs} />
-        <Route path="/playlists" exact component={Playlist} />
+        <Route path="/playlists" exact component={Playlist} /> 
       </Switch>
     </BrowserRouter>
   );
